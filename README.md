@@ -29,6 +29,7 @@ Jadi kita perlu menentukan langkah-langkah terlebih dahulu
 
    penjelasan: pada perulangan / loop menggunakan for kita seolah membuat sebuah variabel baru, pada kali ini yaitu dana. Jadi setiap angka / dana yang ada dalam variabel list_cash_flow, jika besar dari 0 maka variabel total_pemasukkan akan ditambahkan dengan berapa jumlah angka positif dari variabel list_cash_flow
    selanjutnya statement else, jika dana kecil dari 0 (dimana yang dimaksud disini adalah angka negatif, tentu kecil dari 0), maka variabel total_pengeluran akan ditambahkan dengan berapa jumlah angka negatif dari variabel list_cash_flow
+   
 
 4. lalu kita akan membuat variabel total_pengeluaran yang sebelumnya berisi angka negatif diubah menjadi angka positif, agar kita dapat membandingkannya dengan total_pemasukkan
 
@@ -46,6 +47,8 @@ Jadi kita perlu menentukan langkah-langkah terlebih dahulu
           print(total_pendapatan)
    sebenarnya pada langkah 3 kita sudah bisa mendapatkan hasilnya, tapi dengan menggunakan langkah 4 maka hasilnya akan lebih baik dan mudah dipahami.
    kalian bisa mencoba untuk menghapus code di langkah 4 dan lihat hasilnya
+   
+   sumber code : https://academy.dqlab.id/main/livecode/157/294/1311?pr=0
 
 Hasil buatan sendiri
 
